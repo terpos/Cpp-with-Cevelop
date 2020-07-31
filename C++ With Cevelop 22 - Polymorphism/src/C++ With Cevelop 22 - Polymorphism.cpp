@@ -13,6 +13,8 @@ public:
 
 private:
 
+
+
 };
 
 
@@ -28,6 +30,8 @@ public:
 
 private:
 
+
+
 };
 
 class ford: public car{
@@ -41,6 +45,8 @@ public:
 	};
 
 private:
+
+
 
 };
 
@@ -66,6 +72,7 @@ int main(){
 	//Alternative way to define and initialize a class
 	car *c = new ferrari();
 	c->print_car_type();
+
 	return 0;
 }
 
